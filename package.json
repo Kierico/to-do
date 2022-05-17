@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
